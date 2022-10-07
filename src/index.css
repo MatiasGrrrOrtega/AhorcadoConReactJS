@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500;800&display=swap'); 
+/*Importe de fuente externa*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto Slab', serif;
+    background-color: #0e0e0e;
+    background-image: url(./assets/images/ahorcadoHome.png);
+    background-position: center left;
+    background-size: 400px;
+    background-repeat:repeat-x;
+    background-repeat: space;
+}
+
+h1{
+    margin: 13px 0;
+    text-align: center; /*Texto centrado*/
+}

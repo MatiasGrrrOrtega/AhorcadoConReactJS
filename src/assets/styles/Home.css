@@ -1,0 +1,41 @@
+.container-inicio{
+    display: flex;
+    flex-direction: column; /*Direccionamiento en columna*/
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 70vw; /*70% de ancho de pantalla ocupado*/
+    height: 100vh;
+    color: #f0f8ff;
+}
+/*Contenedor centrado con margen automatico*/
+
+.container-inicio-imagen{
+    text-align: center; /*Imagen centrada*/
+    width: 250px; /*ancho de 250px*/
+    height: 250px; /*alto de 250px*/
+}
+
+.container-inicio-logo{
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+.container-inicio-botones{
+    margin: 14px;
+    display: flex;
+    flex-direction: column; /*Se coloca a los botones en colunma*/
+    align-items: center;
+    justify-content: center;
+    /*Botones centrados*/
+}
+
+.container-inicio-botones a{
+    text-decoration: none;
+    color: whitesmoke; /*Botones de color blanco*/
+    font-size: 25px; /*Tamaño de letra de 25px en botones*/
+    margin: 10px 20px;
+    /*margen de 20% por izquierda y derecha*/
+    padding: 10px; /*Relleno de 10px en letra de los botones*/
+}
