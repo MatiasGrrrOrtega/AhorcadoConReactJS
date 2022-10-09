@@ -8,7 +8,6 @@ import { letras } from '../funciones/letras.js';
 
 //Importando estilos CSS
 import '../assets/styles/Game.css'
-import '../assets/styles/Button.css'
 
 //Importando logo
 import logo from '../assets/images/soga-logo.png'
@@ -16,11 +15,8 @@ import logo from '../assets/images/soga-logo.png'
 //Importando componente de las imagenes del ahorcado
 import {ColgadoImg} from './ColgadoImg';
 
-//Importando Musica
-import SoundOption from '../assets/sounds/click02.wav'
-import SoundLost from '../assets/sounds/gameover02.wav'
-import SoundWin from '../assets/sounds/win01.wav'
-import SoundRestart from '../assets/sounds/restart.wav'
+//Importando funciones de Efecto de Sonido
+import {btn, win, lost, restartBtn} from '../funciones/soundEffects.js'
 
 function Game() {
 
@@ -52,25 +48,6 @@ function Game() {
     }
   }, [palabraOculta])
 
-  //Variables de sonido
-  let btn = new Howl({
-    src: [SoundOption]
-  });
-
-  let lost = new Howl({
-    src: [SoundLost]
-  });
-
-  let win = new Howl({
-    src: [SoundWin]
-  });
-
-  let restart = new Howl({
-    src: [SoundRestart]
-  });
-
-  Howler.volume(0.5);
-
   const chequearLetra = (letter) => {
     btn.play();
     if(perder) return;
@@ -94,7 +71,7 @@ function Game() {
   }
 
   const nuevoJuego = () => {
-    restart.play();
+    restartBtn.play();
     const nuevaPalabra = getPalabraRandom();
     
     setIntentos(0);

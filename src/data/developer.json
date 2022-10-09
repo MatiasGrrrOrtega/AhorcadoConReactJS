@@ -1,0 +1,10 @@
+{
+    "description":{
+        "id":0,
+        "name":"Ortega Matias Gabriel",
+        "age":"23 años",
+        "phrase":"Si funciona, no lo toques",
+        "src":"src/assets/images/Matias_Ortega.jpg",
+        "github":"https://github.com/MatiasGrrrOrtega"
+    }
+}

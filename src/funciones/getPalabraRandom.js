@@ -1,4 +1,4 @@
-import diccionario from './diccionario.json'
+import diccionario from '../data/diccionario.json'
 
 export function getPalabraRandom(){
     
