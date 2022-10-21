@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import {Link} from 'react-router-dom'
-import {Howl, Howler} from 'howler';
 
 //Importando Funciones
 import { getPalabraRandom } from '../funciones/getPalabraRandom.js';

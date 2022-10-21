@@ -1,3 +1,6 @@
+//Importando libreria de sonidos
+import {Howl, Howler} from 'howler';
+
 //Importando Musica
 import SoundOptionButton from '../assets/sounds/click02.wav'
 import SoundLost from '../assets/sounds/gameover02.wav'
