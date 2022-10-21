@@ -1,3 +1,3 @@
-# AhorcadoGrupo14
-PARA ESTE TRABAJO SE IMPLEMENTO SONIDO UTILIZANDO LA LIBRERIA HOWLER.JS
-PARA INSTALARLA NECESITA POSICIONARSE DENTRO DE LA CARPETA DEL PROYECTO Y EN SU TERMINAL ESCRIBIR EL COMANDO: npm install howler
+# Creado Por Matias Ortega
+Este proyecto se creo con el entorno de desarrollo Vite
+Para inicilizar este proyecto debe colocarse sobre la carpeta del proyecto y en su terminal usar el comando: npm run dev
